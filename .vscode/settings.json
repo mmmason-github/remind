@@ -1,0 +1,294 @@
+/** Extension List
+* https://marketplace.visualstudio.com/items?itemName=Angular.ng-template
+* https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2
+* https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+* https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+* https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+* https://marketplace.visualstudio.com/items?itemName=AdamRybak.graycat-sql-formatter
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next
+* https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner
+* https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode
+* https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console
+* https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+* https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint
+* https://marketplace.visualstudio.com/items?itemName=debens.sort-js-object
+* https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json
+* https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+* https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
+* https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+* https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
+* https://marketplace.visualstudio.com/items?itemName=henriiik.vscode-sort
+*/ {
+  // Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": false,
+    "source.organizeImports": false,
+    "source.sortImports": false
+  },
+  "editor.colorDecorators": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.insertSpaces": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": false,
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "markdown": "html",
+    "typescript": "typescriptreact",
+    "vue-html": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  // Eslint
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  // Excluded
+  "files.exclude": {
+    "**/.eslintignore": true,
+    "**/.gitignore": true,
+    "**/.prettierignore": true,
+    "**/.prettierrc": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/package.json": true,
+    "**/postcss.config.js": true,
+    "**/postcss.config.json": true,
+    "**/prettier.config.js": true,
+    "**/react-app-env.d.ts": true,
+    "**/readme.md": true,
+    "**/reportWebVitals.ts": true,
+    "**/setupTests.ts": true,
+    "**/tsconfig.json": true
+  },
+  // Explorer
+  "explorer.compactFolders": false,
+  // Files
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": false,
+  // Formatter CSS
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "css.format.enable": true,
+  // Formatter HTML
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "html.format.enable": true,
+  // Formatter Javascript
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "javascript.format.enable": true,
+  // Formatter Json
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120
+  },
+  "json.format.enable": true,
+  // Formatter React
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  // Formatter SCSS
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "scss.format.enable": true,
+  // Formatter Typescript
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  },
+  "typescript.format.enable": true,
+  // CSS
+  "css.completion.completePropertyWithSemicolon": true,
+  "css.completion.triggerPropertyValueCompletion": true,
+  "css.format.braceStyle": "collapse",
+  "css.format.maxPreserveNewLines": 1,
+  "css.format.newlineBetweenRules": true,
+  "css.format.newlineBetweenSelectors": true,
+  "css.format.preserveNewLines": false,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "css.hover.documentation": true,
+  "css.hover.references": true,
+  "css.lint.argumentsInColorFunction": "error",
+  "css.lint.boxModel": "error",
+  "css.lint.compatibleVendorPrefixes": "error",
+  "css.lint.duplicateProperties": "error",
+  "css.lint.emptyRules": "ignore",
+  "css.lint.float": "error",
+  "css.lint.fontFaceProperties": "error",
+  "css.lint.hexColorLength": "error",
+  "css.lint.idSelector": "ignore",
+  "css.lint.ieHack": "error",
+  "css.lint.importStatement": "error",
+  "css.lint.important": "error",
+  "css.lint.propertyIgnoredDueToDisplay": "error",
+  "css.lint.universalSelector": "ignore",
+  "css.lint.unknownAtRules": "error",
+  "css.lint.unknownProperties": "error",
+  "css.lint.unknownVendorSpecificProperties": "ignore",
+  "css.lint.vendorPrefix": "error",
+  "css.lint.zeroUnits": "error",
+  "css.validate": true,
+  // HTML
+  "html.autoClosingTags": true,
+  "html.autoCreateQuotes": true,
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "html.format.contentUnformatted": "",
+  "html.format.extraLiners": "",
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.maxPreserveNewLines": null,
+  "html.format.preserveNewLines": false,
+  "html.format.templating": true,
+  "html.format.unformatted": "",
+  "html.format.unformattedContentDelimiter": "",
+  "html.format.wrapAttributes": "aligned-multiple",
+  "html.format.wrapAttributesIndentSize": 2,
+  "html.format.wrapLineLength": 80,
+  "html.hover.documentation": true,
+  "html.hover.references": true,
+  "html.suggest.html5": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  // Javascript
+  "javascript.autoClosingTags": true,
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+  "javascript.format.insertSpaceAfterConstructor": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "javascript.format.semicolons": "ignore",
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.suggest.autoImports": true,
+  "javascript.suggest.classMemberSnippets.enabled": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "javascript.suggest.completeJSDocs": true,
+  "javascript.suggest.enabled": true,
+  "javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "javascript.suggest.includeCompletionsForImportStatements": true,
+  "javascript.suggest.jsdoc.generateReturns": true,
+  "javascript.suggest.names": true,
+  "javascript.suggest.paths": true,
+  "javascript.suggestionActions.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.validate.enable": true,
+  // Json
+  "json.format.keepLines": true,
+  "json.schemaDownload.enable": true,
+  "json.validate.enable": true,
+  // Proxy
+  "http.proxyAuthorization": null,
+  "http.proxyStrictSSL": false,
+  // SCSS
+  "scss.completion.completePropertyWithSemicolon": true,
+  "scss.completion.triggerPropertyValueCompletion": true,
+  "scss.format.braceStyle": "collapse",
+  "scss.format.maxPreserveNewLines": 1,
+  "scss.format.newlineBetweenRules": true,
+  "scss.format.newlineBetweenSelectors": true,
+  "scss.format.preserveNewLines": false,
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "scss.hover.documentation": true,
+  "scss.hover.references": true,
+  "scss.lint.argumentsInColorFunction": "error",
+  "scss.lint.boxModel": "error",
+  "scss.lint.compatibleVendorPrefixes": "error",
+  "scss.lint.duplicateProperties": "error",
+  "scss.lint.emptyRules": "ignore",
+  "scss.lint.float": "error",
+  "scss.lint.fontFaceProperties": "error",
+  "scss.lint.hexColorLength": "error",
+  "scss.lint.idSelector": "ignore",
+  "scss.lint.ieHack": "error",
+  "scss.lint.importStatement": "ignore",
+  "scss.lint.important": "error",
+  "scss.lint.propertyIgnoredDueToDisplay": "error",
+  "scss.lint.universalSelector": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownProperties": "error",
+  "scss.lint.unknownVendorSpecificProperties": "ignore",
+  "scss.lint.vendorPrefix": "error",
+  "scss.lint.zeroUnits": "error",
+  "scss.validate": true,
+  // SQL
+  // "[sql]": {
+  //   "editor.defaultFormatter": "AdamRybak.graycat-sql-formatter"
+  // },
+  // Typescript
+  "typescript.autoClosingTags": true,
+  "typescript.format.insertSpaceAfterCommaDelimiter": true,
+  "typescript.format.insertSpaceAfterConstructor": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": false,
+  "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "typescript.format.semicolons": "ignore",
+  "typescript.preferences.quoteStyle": "double",
+  "typescript.suggest.autoImports": true,
+  "typescript.suggest.classMemberSnippets.enabled": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeJSDocs": true,
+  "typescript.suggest.enabled": true,
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "typescript.suggest.includeCompletionsForImportStatements": true,
+  "typescript.suggest.jsdoc.generateReturns": true,
+  "typescript.suggest.objectLiteralMethodSnippets.enabled": true,
+  "typescript.suggest.paths": true,
+  "typescript.suggestionActions.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.validate.enable": true
+}
